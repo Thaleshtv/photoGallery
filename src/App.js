@@ -1,8 +1,11 @@
 import { GlobalStyle } from './styles/global'
+import PrincipalPage from './pages/PrincipalPage';
+
 export default function App() {
+
   return (
     <>
-      <h1>Hello world</h1>
+      <PrincipalPage />
       <GlobalStyle />
     </>
   );
