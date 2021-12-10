@@ -5,6 +5,9 @@ export const Container = styled.div`
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+
+    min-height: 90vh;
+
     @media (min-width: 768px) {
         width: 750px;
     }
@@ -31,8 +34,8 @@ export const Container = styled.div`
         display: flex;
         gap: 0.25rem;
         align-items: center;
-        justify-content: end;
-        margin-top: 1rem;
+        justify-content: center;
+        margin-top: 1.75rem;
     }
 `
 
@@ -43,5 +46,7 @@ export const Content = styled.div`
     flex-wrap: wrap;
     gap: 1rem;
     margin-top: 2rem;
+
+    flex: 1 0 auto;
 `
 

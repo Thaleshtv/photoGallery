@@ -8,6 +8,7 @@ export const Content = styled.div`
         display: flex;
         align-items: center;
         padding: 1rem;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         padding-right: 15px;
@@ -35,11 +36,17 @@ export const Content = styled.div`
             align-items: center;
             justify-content: center;
             gap: 0.75rem;
+
+            transition: filter 0.2s;
+            &:hover {
+                filter: brightness(0.8);
+            }
         }
 
         .searchGroup {
             display: flex;
             align-items: center;
+            flex-wrap: wrap;
             gap: 0.5rem;
         }
 

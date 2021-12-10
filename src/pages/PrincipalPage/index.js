@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Footer from '../../components/Footer'
 import Menu from '../../components/Menu'
 import { getInicialPhotos, getSearchPhotos } from '../../services/api'
 
@@ -65,6 +66,7 @@ export default function PrincipalPage() {
                     <button onClick={nextPage}>Proxima página</button>
                 </div>
             </Styled.Container>
+            <Footer />
         </>
     )
 }
