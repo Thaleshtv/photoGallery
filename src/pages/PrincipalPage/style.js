@@ -28,6 +28,11 @@ export const Container = styled.div`
         align-items: center;
         justify-content: center;
         gap: 0.75rem;
+
+        transition: filter 0.2s;
+        &:hover {
+            filter: brightness(0.8);
+        }
     }
 
     .buttonGroup {
