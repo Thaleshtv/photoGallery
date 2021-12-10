@@ -11,6 +11,17 @@ export const Content = styled.div`
         flex-wrap: wrap;
         justify-content: space-between;
 
+        @media(max-width: 553px) {
+            gap: 1.75rem;
+            justify-content: center;
+        }
+        @media(max-width: 407px) {
+            justify-content: center;
+        }
+        @media(max-width: 340px) {
+            justify-content: space-between;
+        }
+
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
@@ -47,7 +58,12 @@ export const Content = styled.div`
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-            gap: 0.5rem;
+            gap: 0.75rem;
+            justify-content: center;
+
+            @media(max-width: 340px) {
+                justify-content: flex-start;
+            }
         }
 
         input {
