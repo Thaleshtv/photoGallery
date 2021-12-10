@@ -59,7 +59,8 @@ export const Content = styled.div`
         }
     }
 
-    h1 {
-        color: var(--yellow);
-    }
+        a { 
+            text-decoration: none;
+            color: var(--yellow);
+        }
 `
