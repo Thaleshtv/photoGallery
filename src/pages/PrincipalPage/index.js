@@ -13,6 +13,7 @@ export default function PrincipalPage() {
 
     function handleClick() {
         setType('search')
+        setIndexValue(1)
     }
 
     function nextPage() {
